@@ -1,0 +1,189 @@
+
+*,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/*///// HEADER /////*/
+
+.background{
+    background-image: url(../img/anana.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    font-size: 1.2em;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 50vh;
+}
+
+.navbar-brand img{
+    width: 30%;
+}
+
+.icons-reseaux_header{
+    padding: 2%;
+}
+
+
+/*///// DETAIL TITLE CARDS BUTTONS IMAGES /////*/
+
+h1, h2, h3 {
+    overflow: hidden;
+    text-decoration: none;
+    display: inline;
+}
+
+.title-cards{
+    padding-top: 10%
+}
+
+.text-title{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.button-cards{
+    padding-top: 2%;
+}
+
+.section-cards img{
+    width: 100%;
+    border: solid 1px #333;
+    margin: 1em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: .5em;
+}
+
+.section{
+    padding-bottom: 10%;
+}
+
+.section-background{
+    background-color: #F8F7F2;
+}
+
+.title-section{
+    margin-left: 10%;
+    padding-top: 10%;
+}
+
+.section-img img{
+    width: 70%;
+}
+
+/*///// FOOTER /////*/
+
+.footer-background{
+    background-image: url(../img/anana.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 30vh;
+    width: 100%;
+}
+
+/* BUILDS PAGE */
+
+.category-build{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.selection_img img{
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+button{
+    padding: 0.5em 2em;
+    border-radius: .5em;
+    color: #eee;
+    background-color: #68B448;
+    border: solid 1px #68B448;
+}
+
+button:hover {
+    background-color: #eee;
+    color: #68B448;
+}
+
+i{
+    font-size: 1.5em;
+    color: #68B448;
+}
+
+.icon-button{
+    color: #eee;
+    font-size: 1em;
+}
+
+.icon-button:hover{
+    color: #68B448
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+}
+
+.spacer-top{
+    padding-top: 10em;
+}
+
+.spacer-bottom{
+    padding-bottom: 10em;
+}
+
+.spacer-between{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.frame{
+    border: solid 1px lightgray;
+    font-size: 1.2em;
+    padding: 1em 5em;
+}
+
+.container-20{
+    width: 100%;
+    height: 20vh;
+}
+
+.background-image{
+    background-image: url(../img/help2.png);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    opacity: 0.92;
+}
+
+.title-banner{
+    font-size: 2.5em;
+    color: #333;
+}
+
+span{
+    font-size: 2em;
+    font-family: 'Dancing Script', cursive;
+    color: #333;
+}
+
+.links{
+    color: black;
+    text-decoration: none;
+    padding: 2em;
+}
+
+.icons-padding{
+    padding: 1em;
+}
